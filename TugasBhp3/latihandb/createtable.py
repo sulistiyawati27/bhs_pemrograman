@@ -10,4 +10,4 @@ mydb = mysql.connector.connect(
 
 db = mydb.cursor()
 
-db.execute("CREATE TABLE students (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), nim VARCHAR(255))")
+db.execute("CREATE TABLE students (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), nim VARCHAR(255))") 

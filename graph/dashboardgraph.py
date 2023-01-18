@@ -8,6 +8,7 @@ fig = px.line(
     title="sample dashboard", height=325
 )
 
+
 app = Dash()
 app.layout = html.Div([
     dcc.Graph(figure=fig)
