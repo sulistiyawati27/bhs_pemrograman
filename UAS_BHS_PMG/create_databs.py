@@ -9,3 +9,4 @@ mydb = mysql.connector.connect(
 
 db = mydb.cursor()
 db.execute("CREATE DATABASE basis_data")
+
