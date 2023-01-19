@@ -1,7 +1,7 @@
 import tkinter as tk
 
 def on_button_click():
-    label.config(text="Hello, Tkinter!")
+    label.config(text="Hello, Sulistiyawati!")
 
 root = tk.Tk()
 root.title("Contoh GUI dengan Tkinter")
